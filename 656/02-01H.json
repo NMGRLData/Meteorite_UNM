@@ -1,0 +1,198 @@
+{
+    "acquisition_software": "Pychron17.7(Exp0.2,DVC0.1)", 
+    "aliquot": 1, 
+    "analysis_type": "unknown", 
+    "analyst_name": "MHeizler", 
+    "comment": "A:8 whole rock, 10.58 mg", 
+    "commit": "4e1d582a09c099007d44ba19f2d2c7157d027772", 
+    "conditionals": [
+        {
+            "analysis_types": null, 
+            "frequency": 10, 
+            "hash_id": -530729609918142714, 
+            "level": 10, 
+            "location": "setupfiles/spectrometer/default_conditionals.yaml", 
+            "ntrips": 1, 
+            "start_count": 5, 
+            "teststr": "L2(CDD).deflection==3250"
+        }
+    ], 
+    "data_reduction_software": "Pychron17.7(DVC0.1)", 
+    "detectors": {
+        "AX": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0.0, 
+            "gain": 0
+        }
+    }, 
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor", 
+                "name": "Lab Hum.", 
+                "pub_date": "2017-08-03T12:03:38", 
+                "title": "iServer Hum.", 
+                "value": 51.9
+            }, 
+            {
+                "device": "RPiWeather", 
+                "name": "Lab Hum. 2", 
+                "pub_date": "2017-08-02T19:08:03", 
+                "title": "Base Station Hum.", 
+                "value": 36.9102478027344
+            }
+        ], 
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure", 
+                "name": "Pressure", 
+                "pub_date": "2017-08-03T12:42:40", 
+                "title": null, 
+                "value": 82.5
+            }, 
+            {
+                "device": "AirPressure2", 
+                "name": "Pressure2", 
+                "pub_date": "2017-08-03T12:42:40", 
+                "title": null, 
+                "value": 82.74682
+            }, 
+            {
+                "device": "RPiWeather", 
+                "name": "Lab Pressure", 
+                "pub_date": "2017-08-02T17:49:40", 
+                "title": null, 
+                "value": 865.783447265625
+            }
+        ], 
+        "lab_temperatures": [
+            {
+                "device": "Coldfinger", 
+                "name": "ColdFinger Temp.", 
+                "pub_date": "2017-08-03T12:11:43", 
+                "title": null, 
+                "value": -196.0
+            }, 
+            {
+                "device": "EnvironmentalMonitor", 
+                "name": "Lab Temp.", 
+                "pub_date": "2017-08-03T12:40:54", 
+                "title": "iServer Temp.", 
+                "value": 74.6
+            }, 
+            {
+                "device": "Chiller", 
+                "name": "Coolant Temp.", 
+                "pub_date": "2017-08-03T11:54:17", 
+                "title": null, 
+                "value": 18.0
+            }, 
+            {
+                "device": "RPiWeather", 
+                "name": "Lab Temp. 2", 
+                "pub_date": "2017-08-02T19:08:49", 
+                "title": "Base Station Temp.", 
+                "value": 83.9495460510254
+            }, 
+            {
+                "device": "RPiWeather", 
+                "name": "Lab Temp. 3", 
+                "pub_date": "2017-08-02T19:05:20", 
+                "title": "EastDiffuser01", 
+                "value": 59.45
+            }, 
+            {
+                "device": "RPiWeather", 
+                "name": "Lab Temp. 4", 
+                "pub_date": "2017-08-02T18:51:57", 
+                "title": "EastReturn02", 
+                "value": 73.4
+            }, 
+            {
+                "device": "RPiWeather", 
+                "name": "Lab Temp. 5", 
+                "pub_date": "2017-08-02T19:03:23", 
+                "title": "iServerCalibration03", 
+                "value": 74.4116
+            }, 
+            {
+                "device": "RPiWeather", 
+                "name": "Lab Temp. 6", 
+                "pub_date": "2017-08-02T18:40:03", 
+                "title": "SouthWall04", 
+                "value": 74.6366
+            }, 
+            {
+                "device": "RPiWeather", 
+                "name": "Lab Temp. 7", 
+                "pub_date": "2017-08-02T19:03:37", 
+                "title": "SouthWindow05", 
+                "value": 80.0366
+            }
+        ]
+    }, 
+    "extraction": "felix_diode.py", 
+    "identifier": "65602", 
+    "increment": 7, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NM-290", 
+    "irradiation_level": "A", 
+    "irradiation_position": 8, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)", 
+            "name": "Ar36"
+        }, 
+        "Ar37": {
+            "detector": "L1", 
+            "name": "Ar37"
+        }, 
+        "Ar38": {
+            "detector": "AX", 
+            "name": "Ar38"
+        }, 
+        "Ar39": {
+            "detector": "H1", 
+            "name": "Ar39"
+        }, 
+        "Ar40": {
+            "detector": "H2", 
+            "name": "Ar40"
+        }
+    }, 
+    "laboratory": "", 
+    "mass_spectrometer": "Felix", 
+    "material": "Groundmass", 
+    "measurement": "felix_analysis400_120_no_save_center.py", 
+    "post_equilibration": "felix_pump_extraction_line.py", 
+    "post_measurement": "felix_pump_ms.py", 
+    "project": "IR1003", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Meteorite_UNM", 
+    "sample": "NWA 11042", 
+    "source": {
+        "emission": 889.265, 
+        "trap": 247.712
+    }, 
+    "spec_sha": "44c6f8761147de90179e8a3952e48831c78a9a46", 
+    "timestamp": "2017-08-03T12:43:46.124403", 
+    "tripped_conditional": null, 
+    "username": "MHeizler", 
+    "uuid": "82a7ebb4-b6f0-48a3-a18f-bc1580479a4d", 
+    "whiff_result": null
+}
